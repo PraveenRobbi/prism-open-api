@@ -1,0 +1,21 @@
+openapi: 3.0.0
+info:
+  title: Flight Check-In Step 1
+  version: '1.0'
+
+paths:
+  /check-in/passengers:
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses:
+        '200':
+          description:OK
+          content:
+            application/json:
+              examples:
+                checked-in-passenger:
+                  value:
+                    barcodeData:jasvdavd
+                    numberValue:12345
+                    something:1nsb2 
